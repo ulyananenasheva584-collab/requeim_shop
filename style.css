@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat";
+}
+
+.first {
+    background-image: url("фон.png");
+    background-size: cover;
+    height: 650px;
+}
+.header{
+    display: flex;
+    justify-content: right;
+}
+.account{
+    margin-top: 58px;
+    margin-right: 100px;
+}
+.requiem_container{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+
+.mainBut{
+    display: flex;
+    justify-content: center;
+    padding-top: 89px;
+}
+
+.requiem{
+    width: 49%;
+    height: 49%;
+}
+.shop_now{
+    width: 187px;
+    height: 68px;
+    background-color: #B3A292;
+    border-radius: 10px;
+    font-style: italic;    
+    font-size: 20px;
+    
+
+}
+.right{
+    display: flex;
+    justify-content:right;
+    margin-top: 300px;
+}
+
+.but_title{
+    padding-left: 25px;
+    padding-top: 167px;
+}
+
+.hand{
+    width: 224px;
+    height: 456px;
+}
+
+
+.second{
+    background-color: #181818;
+}
+
+.цитата_png{
+    width: 192px;
+    height: 120px;
+}
+
+.цитата{
+    display: flex;
+    justify-content: right;
+    padding-top: 116px;
+    padding-right: 80px;
+}
+
+.pngСНР{
+    width: 555px;
+    height: 655px;
+}
+
+.snrText{
+    font-size: 22px;
+    color: white;
+}
+
+.divСНР{
+    padding-bottom: 100px;
+}
+
+.book{
+    width: 191px;
+    height: 126px;
+}
+
+.bookDiv{
+    display: flex;
+    justify-content: right;
+    padding-right: 60px;
+}
+
+.textAbout{
+    color: white;
+    padding-right: 150px;
+}
+
+.mainStaff{
+    display: flex;
+    justify-content: space-between;
+}
+
+.third{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.clothes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 54px;
+    padding-left: 22px;
+}
+.крест{
+    width: 183px;
+    height: 426px;
+
+}
+.одежда{
+    width: 444px;
+    height: 100px;
+}
+
+.Lane{
+    padding-top: 120px;
+    padding-right: 30px;
+}
+
+.Yan{
+    padding-top: 120px;
+    padding-left: 30px;
+}
+
+.men{
+    padding-top: 15px;
+    padding-left: 70px;
+}
+
+.fem{
+    padding-top: 15px;
+    padding-left: 55px; 
+}
