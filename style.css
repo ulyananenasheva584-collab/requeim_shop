@@ -13,7 +13,7 @@ body{
     background-size: cover;
     height: 650px;
 }
-.header{
+header{
     display: flex;
     justify-content: right;
 }
@@ -45,7 +45,7 @@ body{
     border-radius: 10px;
     font-style: italic;    
     font-size: 20px;
-    
+    font-family: "Montserrat";
 
 }
 .right{
@@ -150,10 +150,133 @@ body{
 
 .men{
     padding-top: 15px;
-    padding-left: 70px;
+    padding-left: 60px;
+    font-size: 22px;
+    font-style: italic;
 }
 
 .fem{
     padding-top: 15px;
-    padding-left: 55px; 
+    padding-left: 38px; 
+    font-size: 22px;
+    font-style: italic;
+}
+
+.fourth{
+    background-image: url("Rectangle 29.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 78px;
+    height: 750px;
+}
+
+.heels{
+    width: 219px;
+    height: 194px;
+}
+
+.boots{
+    width: 239px;
+    height: 194px;
+}
+
+.обувь{
+    width: 404px;
+    height: 105px;
+}
+.Shoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 54px;
+    padding-left: 22px;    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 54px;
+    padding-left: 22px;  
+}
+
+.Woman{
+    padding-top: 320px;
+    padding-right: 30px;  
+}
+
+.Men{
+    padding-top: 320px;
+    padding-left: 30px;  
+}
+.fem2{
+    padding-top: 15px;
+    padding-left: 38px; 
+    font-size: 22px;
+    color: white;
+    font-style: italic;
+}
+
+.men2{
+    padding-top: 15px;
+    padding-left: 60px;
+    font-size: 22px;
+    color: white;
+    font-style: italic;
+}
+
+.heels{
+    width: 219px;
+    height: 194px;
+}
+
+.boots{
+    width: 239px;
+    height: 194px;
+}
+
+footer{
+    background-image: url("footer.png");
+    background-size: cover;
+    height: 641px;
+    position: relative;
+    text-align: center;
+    padding: 40px 20px;
+    display: block;
+    padding-top: 89px;
+}
+
+.lastH{
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.email{
+    font-style: italic;
+    font-size: 20px;
+    height: 56px;
+    width: 391px;
+    border-radius: 10px;
+}
+.sub_but{
+    width: 201px;
+    height: 56px;
+    background-color: #B3A292;
+    border-radius: 10px;
+    font-style: italic;    
+    font-size: 20px;
+    font-family: "Montserrat";   
+}
+.subscrible{
+    padding-top: 97px;
+    text-align: center;
+}
+.cross{
+    width: 143px;
+    height: 225px;
+    margin-top: 110px;
+
+
+    
 }
