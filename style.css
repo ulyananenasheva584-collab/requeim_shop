@@ -1,282 +1,245 @@
+@charset "UTF-8";
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: "Montserrat";
+body {
+  font-family: "Montserrat";
 }
 
 .first {
-    background-image: url("фон.png");
-    background-size: cover;
-    height: 650px;
+  background-image: url("фон.png");
+  background-size: cover;
+  height: 810px;
 }
-header{
-    display: flex;
-    justify-content: right;
+.first header {
+  display: flex;
+  justify-content: right;
 }
-.account{
-    margin-top: 58px;
-    margin-right: 100px;
+.first .account {
+  margin-top: 58px;
+  margin-right: 100px;
 }
-.requiem_container{
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
+.first .requiem_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first .mainBut {
+  display: flex;
+  justify-content: center;
+  padding-top: 89px;
+}
+.first .requiem {
+  width: 49%;
+  height: 49%;
+}
+.first .shop_now {
+  width: 187px;
+  height: 68px;
+  background-color: #B3A292;
+  border-radius: 10px;
+  font-style: italic;
+  font-size: 20px;
+  font-family: "Montserrat";
+}
+.first .right {
+  display: flex;
+  justify-content: right;
+  margin-top: 300px;
+}
+.first .but_title {
+  padding-left: 25px;
+  padding-top: 167px;
+}
+.first .hand {
+  width: 224px;
+  height: 456px;
+}
+
+.second {
+  background-color: #181818;
+}
+.second .цитата_png {
+  width: 192px;
+  height: 120px;
+}
+.second .цитата {
+  display: flex;
+  justify-content: right;
+  padding-top: 116px;
+  padding-right: 80px;
+}
+.second .pngСНР {
+  width: 555px;
+  height: 655px;
+}
+.second .snrText {
+  font-size: 22px;
+  color: white;
+  font-style: normal;
+}
+.second .divСНР {
+  padding-bottom: 20px;
+}
+.photoSNR{
+  height: 695px;
+}
+.second .book {
+  width: 191px;
+  height: 126px;
+}
+.second .bookDiv {
+  display: flex;
+  justify-content: right;
+  padding-right: 60px;
+}
+.second .textAbout {
+  color: white;
+  padding-right: 150px;
+}
+.second .mainStaff {
+  display: flex;
+  justify-content: space-between;
+}
+
+.third {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.third .clothes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 54px;
+  padding-left: 22px;
+}
+.third .крест {
+  width: 183px;
+  height: 426px;
+}
+.third .одежда {
+  width: 444px;
+  height: 100px;
+}
+.third .Lane {
+  padding-top: 120px;
+  padding-right: 30px;
+}
+.third .Yan {
+  padding-top: 120px;
+  padding-left: 30px;
+}
+.third .men {
+  padding-top: 15px;
+  padding-left: 60px;
+  font-size: 22px;
+  color: inherit;
+  font-style: italic;
+}
+.third .fem {
+  padding-top: 15px;
+  padding-left: 38px;
+  font-size: 22px;
+  color: inherit;
+  font-style: italic;
+}
+
+.fourth {
+  background-image: url("Rectangle 29.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding-top: 78px;
+  height: 830px;
+}
+.fourth .heels {
+  width: 219px;
+  height: 194px;
+}
+.fourth .boots {
+  width: 239px;
+  height: 194px;
+}
+.fourth .обувь {
+  width: 404px;
+  height: 105px;
+}
+.fourth .Shoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 54px;
+  padding-left: 22px;
+}
+.fourth .Woman {
+  padding-top: 320px;
+  padding-right: 30px;
+}
+.fourth .Men {
+  padding-top: 320px;
+  padding-left: 30px;
+}
+.fourth .fem2 {
+  padding-top: 15px;
+  padding-left: 38px;
+  font-size: 22px;
+  color: white;
+  font-style: italic;
+}
+.fourth .men2 {
+  padding-top: 15px;
+  padding-left: 60px;
+  font-size: 22px;
+  color: white;
+  font-style: italic;
+}
+
+footer {
+  background-image: url("footer.png");
+  background-size: cover;
+  height: 641px;
+  position: relative;
+  text-align: center;
+  padding: 40px 20px;
+  display: block;
+  padding-top: 89px;
+}
+footer .lastH {
+  font-size: 25px;
+  color: white;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+footer .email {
+  font-style: italic;
+  font-size: 20px;
+  height: 56px;
+  width: 391px;
+  border-radius: 10px;
+}
+footer .sub_but {
+  width: 201px;
+  height: 56px;
+  background-color: #B3A292;
+  border-radius: 10px;
+  font-style: italic;
+  font-size: 20px;
+  font-family: "Montserrat";
+}
+footer .subscrible {
+  padding-top: 97px;
+  text-align: center;
+}
+footer .cross {
+  width: 143px;
+  height: 225px;
+  margin-top: 110px;
 }
 
 
-.mainBut{
-    display: flex;
-    justify-content: center;
-    padding-top: 89px;
-}
-
-.requiem{
-    width: 49%;
-    height: 49%;
-}
-.shop_now{
-    width: 187px;
-    height: 68px;
-    background-color: #B3A292;
-    border-radius: 10px;
-    font-style: italic;    
-    font-size: 20px;
-    font-family: "Montserrat";
-
-}
-.right{
-    display: flex;
-    justify-content:right;
-    margin-top: 300px;
-}
-
-.but_title{
-    padding-left: 25px;
-    padding-top: 167px;
-}
-
-.hand{
-    width: 224px;
-    height: 456px;
-}
-
-
-.second{
-    background-color: #181818;
-}
-
-.цитата_png{
-    width: 192px;
-    height: 120px;
-}
-
-.цитата{
-    display: flex;
-    justify-content: right;
-    padding-top: 116px;
-    padding-right: 80px;
-}
-
-.pngСНР{
-    width: 555px;
-    height: 655px;
-}
-
-.snrText{
-    font-size: 22px;
-    color: white;
-}
-
-.divСНР{
-    padding-bottom: 100px;
-}
-
-.book{
-    width: 191px;
-    height: 126px;
-}
-
-.bookDiv{
-    display: flex;
-    justify-content: right;
-    padding-right: 60px;
-}
-
-.textAbout{
-    color: white;
-    padding-right: 150px;
-}
-
-.mainStaff{
-    display: flex;
-    justify-content: space-between;
-}
-
-.third{
-    background-color: white;
-    display: flex;
-    justify-content: center;
-}
-.clothes{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 54px;
-    padding-left: 22px;
-}
-.крест{
-    width: 183px;
-    height: 426px;
-
-}
-.одежда{
-    width: 444px;
-    height: 100px;
-}
-
-.Lane{
-    padding-top: 120px;
-    padding-right: 30px;
-}
-
-.Yan{
-    padding-top: 120px;
-    padding-left: 30px;
-}
-
-.men{
-    padding-top: 15px;
-    padding-left: 60px;
-    font-size: 22px;
-    font-style: italic;
-}
-
-.fem{
-    padding-top: 15px;
-    padding-left: 38px; 
-    font-size: 22px;
-    font-style: italic;
-}
-
-.fourth{
-    background-image: url("Rectangle 29.png");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    padding-top: 78px;
-    height: 750px;
-}
-
-.heels{
-    width: 219px;
-    height: 194px;
-}
-
-.boots{
-    width: 239px;
-    height: 194px;
-}
-
-.обувь{
-    width: 404px;
-    height: 105px;
-}
-.Shoes{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 54px;
-    padding-left: 22px;    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 54px;
-    padding-left: 22px;  
-}
-
-.Woman{
-    padding-top: 320px;
-    padding-right: 30px;  
-}
-
-.Men{
-    padding-top: 320px;
-    padding-left: 30px;  
-}
-.fem2{
-    padding-top: 15px;
-    padding-left: 38px; 
-    font-size: 22px;
-    color: white;
-    font-style: italic;
-}
-
-.men2{
-    padding-top: 15px;
-    padding-left: 60px;
-    font-size: 22px;
-    color: white;
-    font-style: italic;
-}
-
-.heels{
-    width: 219px;
-    height: 194px;
-}
-
-.boots{
-    width: 239px;
-    height: 194px;
-}
-
-footer{
-    background-image: url("footer.png");
-    background-size: cover;
-    height: 641px;
-    position: relative;
-    text-align: center;
-    padding: 40px 20px;
-    display: block;
-    padding-top: 89px;
-}
-
-.lastH{
-    font-size: 25px;
-    font-style: italic;
-    color: white;
-    font-weight: 500;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.email{
-    font-style: italic;
-    font-size: 20px;
-    height: 56px;
-    width: 391px;
-    border-radius: 10px;
-}
-.sub_but{
-    width: 201px;
-    height: 56px;
-    background-color: #B3A292;
-    border-radius: 10px;
-    font-style: italic;    
-    font-size: 20px;
-    font-family: "Montserrat";   
-}
-.subscrible{
-    padding-top: 97px;
-    text-align: center;
-}
-.cross{
-    width: 143px;
-    height: 225px;
-    margin-top: 110px;
-
-
-    
-}

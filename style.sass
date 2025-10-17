@@ -1,0 +1,241 @@
+// Переменные
+$primary-color: #B3A292
+$dark-bg: #181818
+$white: white
+$font-montserrat: "Montserrat"
+$font-size-xl: 25px
+$font-size-lg: 22px
+$font-size-md: 20px
+$border-radius: 10px
+
+// Миксины
+=flex-center
+  display: flex
+  justify-content: center
+  align-items: center
+
+=flex-right
+  display: flex
+  justify-content: right
+
+=flex-column-center
+  display: flex
+  flex-direction: column
+  align-items: center
+
+=button-style
+  background-color: $primary-color
+  border-radius: $border-radius
+  font-style: italic
+  font-size: $font-size-md
+  font-family: $font-montserrat
+
+=text-style($size, $color: inherit, $style: normal)
+  font-size: $size
+  color: $color
+  font-style: $style
+
+// Базовые стили
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  font-family: $font-montserrat
+
+// Секции
+.first
+  background-image: url("фон.png")
+  background-size: cover
+  height: 650px
+
+  header
+    +flex-right
+
+  .account
+    margin-top: 58px
+    margin-right: 100px
+
+  .requiem_container
+    +flex-center
+
+  .mainBut
+    display: flex
+    justify-content: center
+    padding-top: 89px
+
+  .requiem
+    width: 49%
+    height: 49%
+
+  .shop_now
+    width: 187px
+    height: 68px
+    +button-style
+
+  .right
+    +flex-right
+    margin-top: 300px
+
+  .but_title
+    padding-left: 25px
+    padding-top: 167px
+
+  .hand
+    width: 224px
+    height: 456px
+
+.second
+  background-color: $dark-bg
+
+  .цитата_png
+    width: 192px
+    height: 120px
+
+  .цитата
+    +flex-right
+    padding-top: 116px
+    padding-right: 80px
+
+  .pngСНР
+    width: 505px
+    height: 605px
+
+  .snrText
+    +text-style($font-size-lg, $white)
+
+  .divСНР
+    padding-bottom: 100px
+
+  .book
+    width: 191px
+    height: 126px
+
+  .bookDiv
+    +flex-right
+    padding-right: 60px
+
+  .textAbout
+    color: $white
+    padding-right: 150px
+
+  .mainStaff
+    display: flex
+    justify-content: space-between
+
+.third
+  background-color: $white
+  display: flex
+  justify-content: center
+
+  .clothes
+    +flex-column-center
+    padding-top: 54px
+    padding-left: 22px
+
+  .крест
+    width: 183px
+    height: 426px
+
+  .одежда
+    width: 444px
+    height: 100px
+
+  .Lane
+    padding-top: 120px
+    padding-right: 30px
+
+  .Yan
+    padding-top: 120px
+    padding-left: 30px
+
+  .men
+    padding-top: 15px
+    padding-left: 60px
+    +text-style($font-size-lg, $style: italic)
+
+  .fem
+    padding-top: 15px
+    padding-left: 38px
+    +text-style($font-size-lg, $style: italic)
+
+.fourth
+  background-image: url("Rectangle 29.png")
+  background-size: cover
+  display: flex
+  justify-content: center
+  padding-top: 78px
+  height: 750px
+
+  .heels
+    width: 219px
+    height: 194px
+
+  .boots
+    width: 239px
+    height: 194px
+
+  .обувь
+    width: 404px
+    height: 105px
+
+  .Shoes
+    +flex-column-center
+    padding-top: 54px
+    padding-left: 22px
+
+  .Woman
+    padding-top: 320px
+    padding-right: 30px
+
+  .Men
+    padding-top: 320px
+    padding-left: 30px
+
+  .fem2
+    padding-top: 15px
+    padding-left: 38px
+    +text-style($font-size-lg, $white, italic)
+
+  .men2
+    padding-top: 15px
+    padding-left: 60px
+    +text-style($font-size-lg, $white, italic)
+
+footer
+  background-image: url("footer.png")
+  background-size: cover
+  height: 641px
+  position: relative
+  text-align: center
+  padding: 40px 20px
+  display: block
+  padding-top: 89px
+
+  .lastH
+    +text-style($font-size-xl, $white, italic)
+    font-weight: 500
+    margin-bottom: 20px
+    text-align: center
+
+  .email
+    font-style: italic
+    font-size: $font-size-md
+    height: 56px
+    width: 391px
+    border-radius: $border-radius
+
+  .sub_but
+    width: 201px
+    height: 56px
+    +button-style
+
+  .subscrible
+    padding-top: 97px
+    text-align: center
+
+  .cross
+    width: 143px
+    height: 225px
+    margin-top: 110px
